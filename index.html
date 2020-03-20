@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <div class="first">
+        <div id="top" class="top">
+            <div class=logo>
+                <img src="https://bit.ly/2I6aU3U">
+            </div>
+            <h1>QUICK-PIZZA</h1>
+            <P>Tasty!, Spicy!, Affordable!</P>
+            <button id="continue">continue</button>
+
+        </div>
+        <div id="close" style="display: none;">
+            <h1> OUR VARIETIES</h1>
+            <div class="row">
+                <div class="col-md-6" >
+                    <img src="https://bit.ly/396706Y" id="img1">
+                    <p class="event" id="par1"></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://bit.ly/396706Y" id="img2">
+                    <p class="event" id="par2"></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://bit.ly/396706Y" id="img3">
+                    <p class="event" id="par3"></p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://bit.ly/396706Y" id="img4">
+                    <p class="event" id="par4"></p>
+                </div>
+            
+            </div>
+
+            <div class="container">
+                <h1>Place your order!</h1>
+                <div class="row">
+                    <div class="col-md-4" id="down">
+                        <div class="type">
+                            <label for="type" id="type"></label>
+                            <select>
+                                <option>chicken</option>
+                                <option>meaty</option>
+                                <option>vegetarian</option>
+                            </select>
+                        </div>
+
+                        <div class="size">
+                            <label for="size" ></label>
+                            <select id="size">
+                                
+                                <option value="small">small@ ksh850</option>
+                                <option value="medium">medium@ Ksh900</option>
+                                <option value="large">large@ Ksh1200</option>
+                            </select>
+
+                        </div>
+                        <div class="crust">
+
+                            <label for="crust"></label>
+                            <br> <select id="crust">
+                                <option value="cripsy">cripsy @85</option>
+                                <option value="stuffed">Stuffed @90</option>
+                                <option value="gluten">Gluten-free @120</option>
+                                <option>none</option>
+                            </select>
+
+                        </div>
+                        <div class="topping">
+
+                            <label for="topping" ></label>
+                            <br><select id="topping">
+                                <option value="onion">Onions @50</option>
+                                <option value="sausage">Sausage @100</option>
+                                <option value="bacon">Bacon @150</option>
+                                <option>none</option>
+                            </select>
+                            <div class="quantity">
+                                <input id="quantity" type="number" min="1" max="12">
+
+                            </div>
+                        </div>
+                        <br> <button id="button"  value="check-out" onclick="myPrice()" type="submit" class="trial">checkout</button>
+                    </div>
+                    <div class="col-md-4">
+                      <h1>For Delivery</h1>
+                            <form action="">
+                                <div class="name">
+                                    <label for="name"> Enter your name</label><br>
+                                <input type="text" id="name" placeholder="name" > 
+                                </div><br>
+                                <div class="location">
+                                    <label for="location">Enter your location</label><br>
+                                    <input type="text"  id="location" placeholder="location">
+                                </div><br>
+                               <div class="number">
+                                   <labe>Enter your number</labe><br>
+                                    <input type="number" id="number" placeholder="number" minlength="12" maxlength="12">
+                               </div><br>
+                               <button onclick="myFunction()" id="click">Enter</button>
+                            </form>
+                    </div>
+                    <div id="summary" class="col-4">
+                        <div class="container">
+                            <h1>Here is your order summary</h1>
+                            <p id="1"></p>
+                            <p id="2"></p>
+                            <p id="3"></p>
+                            <p id="4"></p>
+                            <button class="trial">ok</button>
+                        </div>
+            
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+       
+</div>
+   
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+<footer>
+    <p>&copy 2020 | by:Quick-Pizza</p>
+</footer>
+
+</html>

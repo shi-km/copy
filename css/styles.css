@@ -1,0 +1,164 @@
+*{
+  overflow-x: hidden;
+}
+.top{
+  background-image: url('https://bit.ly/3ccsgtr');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-attachment: fixed;
+  color: white;
+}
+.size select{
+width: 28vh;
+margin: 5px;
+border-radius: 5px;
+height: 40px;
+}
+.crust select{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.topping select{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:palevioletred;
+      font-size: x-large;
+      position: fixed;
+      width: 100%;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color: #ddd;
+    }
+#button{
+  width: 20vh;
+  margin: 5px; 
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 15%;
+}
+#quantity{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.container h1{
+    text-align: center;
+}
+.logo img{
+  height: 130px;
+
+}
+.logo{
+  text-align: center;
+  padding-top: 15vh;
+}
+.top{
+  text-align: center;
+  background-attachment: fixed;
+}
+.row img {
+  padding: 20px;
+}
+footer{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+#continue{
+  margin-top: 15%;
+}
+.type select{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.row{
+  text-align: center;
+  background-color:brown;
+}
+#name{
+width: 30vh;
+border-radius: 10px;
+}
+#location{
+  width:30vh ;
+  border-radius: 10px;
+}
+#number{
+  width: 30vh;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+#summary{
+  display: none;
+  text-align: center;
+}
+img{
+  border-radius: 15px;
+}
+img:hover {
+  
+  animation: shake 0.5s;
+
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+button:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
